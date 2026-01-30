@@ -3,129 +3,400 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prime Point Pickleball - Injury Prevention for Competitive Players 50+</title>
+    <title>Prime Point Pickleball - Injury Prevention & Performance for Players 50+</title>
+    <meta name="description" content="Evidence-based injury prevention and performance strategies for competitive pickleball players aged 50-75. Play pain-free for the long haul.">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
-        header { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: white; padding: 2rem 1rem; text-align: center; }
-        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-        .tagline { font-size: 1.2rem; opacity: 0.9; }
-        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
-        .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0; }
-        .pillar { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        .pillar h2 { color: #1e3a8a; margin-bottom: 1rem; }
-        .pillar ul { list-style: none; padding: 0; }
-        .pillar li { padding: 0.5rem 0; border-bottom: 1px solid #eee; }
-        .pillar li:last-child { border-bottom: none; }
-        .pillar a { color: #3b82f6; text-decoration: none; }
-        .pillar a:hover { text-decoration: underline; }
-        footer { background: #1e3a8a; color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f9fafb;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2d5016 0%, #4a7c2c 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .hero {
+            background: white;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .hero h2 {
+            color: #2d5016;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            color: #4b5563;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            background: linear-gradient(135deg, #2d5016 0%, #4a7c2c 100%);
+            color: white;
+            padding: 1.25rem 3rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.25rem;
+            transition: transform 0.2s;
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .pillar {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            margin-bottom: 2rem;
+        }
+
+        .pillar h3 {
+            color: #2d5016;
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 3px solid #4a7c2c;
+        }
+
+        .post-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .post-card {
+            background: #f9fafb;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #4a7c2c;
+            transition: all 0.2s;
+        }
+
+        .post-card:hover {
+            background: #f0f7ed;
+            transform: translateX(4px);
+        }
+
+        .post-card a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+
+        .post-number {
+            color: #4a7c2c;
+            font-weight: 700;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            background: white;
+            border-top: 1px solid #e5e7eb;
+            margin-top: 3rem;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Prime Point Pickleball</h1>
-        <p class="tagline">Evidence-Based Injury Prevention & Longevity for Competitive Players 50-75</p>
+        <p>Evidence-Based Injury Prevention & Performance for Players 50+</p>
     </header>
 
     <div class="container">
-        <div class="pillars">
-            <div class="pillar">
-                <h2>01. The Fear</h2>
-                <p>Understanding the injury landscape</p>
-                <ul>
-                    <li><a href="posts/01-the-fear/post-01-the-pop.html">The Pop</a></li>
-                    <li><a href="posts/01-the-fear/post-02-pickleball-achilles.html">Pickleball Achilles</a></li>
-                    <li><a href="posts/01-the-fear/post-03-tennis-elbow.html">Tennis Elbow</a></li>
-                    <li><a href="posts/01-the-fear/post-04-37000-dollar-mistake.html">The $37,000 Mistake</a></li>
-                    <li><a href="posts/01-the-fear/post-05-plantar-fasciitis.html">Plantar Fasciitis</a></li>
-                    <li><a href="posts/01-the-fear/post-06-shoulder-rotator-cuff.html">Shoulder & Rotator Cuff</a></li>
-                    <li><a href="posts/01-the-fear/post-07-knee-meniscus.html">Knee & Meniscus</a></li>
-                    <li><a href="posts/01-the-fear/post-08-stress-fractures.html">Stress Fractures</a></li>
-                </ul>
-            </div>
+        <div class="hero">
+            <h2>Play Pain-Free for the Long Haul</h2>
+            <p>Comprehensive injury prevention strategies backed by sports medicine research, specifically designed for competitive pickleball players aged 50-75.</p>
+            <a href="/no-pop-protocol.html" class="cta-primary">Get The No-Pop Protocol</a>
+        </div>
 
-            <div class="pillar">
-                <h2>02. The Enemy</h2>
-                <p>Root causes of injury</p>
-                <ul>
-                    <li><a href="posts/02-the-enemy/post-09-collagen-synthesis.html">Collagen Synthesis</a></li>
-                    <li><a href="posts/02-the-enemy/post-10-tendon-elasticity.html">Tendon Elasticity</a></li>
-                    <li><a href="posts/02-the-enemy/post-11-explosive-movements.html">Explosive Movements</a></li>
-                    <li><a href="posts/02-the-enemy/post-12-ankle-mobility.html">Ankle Mobility</a></li>
-                    <li><a href="posts/02-the-enemy/post-13-repetitive-strain.html">Repetitive Strain</a></li>
-                    <li><a href="posts/02-the-enemy/post-14-dehydration.html">Dehydration</a></li>
-                    <li><a href="posts/02-the-enemy/post-15-sleep-recovery.html">Sleep & Recovery</a></li>
-                    <li><a href="posts/02-the-enemy/post-16-inflammation.html">Chronic Inflammation</a></li>
-                    <li><a href="posts/02-the-enemy/post-17-biomechanics.html">Poor Biomechanics</a></li>
-                    <li><a href="posts/02-the-enemy/post-18-overtraining.html">Overtraining</a></li>
-                </ul>
+        <div class="pillar">
+            <h3>Pillar 1: The Fear</h3>
+            <div class="post-grid">
+                <div class="post-card">
+                    <div class="post-number">POST 1</div>
+                    <a href="/posts/post-1.html">The Pop That Ends Careers</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 2</div>
+                    <a href="/posts/post-2.html">The Slow Breakdown</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 3</div>
+                    <a href="/posts/post-3.html">The Invisible Timeline</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 4</div>
+                    <a href="/posts/post-4.html">The Comeback That Never Comes</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 5</div>
+                    <a href="/posts/post-5.html">The Warning Signs You're Ignoring</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 6</div>
+                    <a href="/posts/post-6.html">The 50+ Player's Dilemma</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 7</div>
+                    <a href="/posts/post-7.html">The Cost of Waiting</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 8</div>
+                    <a href="/posts/post-8.html">Why "Just Rest" Doesn't Work</a>
+                </div>
             </div>
+        </div>
 
-            <div class="pillar">
-                <h2>03. Equipment</h2>
-                <p>Gear that protects</p>
-                <ul>
-                    <li><a href="posts/03-equipment/post-19-court-shoes.html">Court Shoes</a></li>
-                    <li><a href="posts/03-equipment/post-20-paddle-weight.html">Paddle Weight</a></li>
-                    <li><a href="posts/03-equipment/post-21-insoles.html">Insoles & Orthotics</a></li>
-                    <li><a href="posts/03-equipment/post-22-compression-wear.html">Compression Wear</a></li>
-                    <li><a href="posts/03-equipment/post-23-elbow-braces.html">Elbow Braces</a></li>
-                    <li><a href="posts/03-equipment/post-24-knee-sleeves.html">Knee Sleeves</a></li>
-                    <li><a href="posts/03-equipment/post-25-ankle-support.html">Ankle Support</a></li>
-                    <li><a href="posts/03-equipment/post-26-eyewear.html">Protective Eyewear</a></li>
-                    <li><a href="posts/03-equipment/post-27-grip-tape.html">Grip & Tape</a></li>
-                </ul>
+        <div class="pillar">
+            <h3>Pillar 2: The Enemy</h3>
+            <div class="post-grid">
+                <div class="post-card">
+                    <div class="post-number">POST 9</div>
+                    <a href="/posts/post-9.html">The Three Injury Patterns</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 10</div>
+                    <a href="/posts/post-10.html">The Achilles Equation</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 11</div>
+                    <a href="/posts/post-11.html">The Knee's Breaking Point</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 12</div>
+                    <a href="/posts/post-12.html">The Rotator Cuff Time Bomb</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 13</div>
+                    <a href="/posts/post-13.html">The Movement Patterns Killing You</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 14</div>
+                    <a href="/posts/post-14.html">The Overload Trap</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 15</div>
+                    <a href="/posts/post-15.html">The Asymmetry Problem</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 16</div>
+                    <a href="/posts/post-16.html">The Stiffness Spiral</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 17</div>
+                    <a href="/posts/post-17.html">The Compensation Chain</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 18</div>
+                    <a href="/posts/post-18.html">The Tissue Quality Crisis</a>
+                </div>
             </div>
+        </div>
 
-            <div class="pillar">
-                <h2>04. The Fix</h2>
-                <p>Targeted training protocols</p>
-                <ul>
-                    <li><a href="posts/04-the-fix/post-28-isometric-calf-hold.html">Isometric Calf Hold</a></li>
-                    <li><a href="posts/04-the-fix/post-29-eccentric-heel-drop.html">Eccentric Heel Drop</a></li>
-                    <li><a href="posts/04-the-fix/post-30-reverse-tyler-twist.html">Reverse Tyler Twist</a></li>
-                    <li><a href="posts/04-the-fix/post-31-hip-airplane.html">Hip Airplane</a></li>
-                    <li><a href="posts/04-the-fix/post-32-copenhagen-plank.html">Copenhagen Plank</a></li>
-                    <li><a href="posts/04-the-fix/post-33-split-stance-landing.html">Split-Stance Landing</a></li>
-                    <li><a href="posts/04-the-fix/post-34-pallof-press.html">Pallof Press</a></li>
-                    <li><a href="posts/04-the-fix/post-35-wall-ankle-mobilization.html">Wall Ankle Mobilization</a></li>
-                    <li><a href="posts/04-the-fix/post-36-dead-bug.html">Dead Bug</a></li>
-                    <li><a href="posts/04-the-fix/post-37-cuban-rotation.html">Cuban Rotation</a></li>
-                </ul>
+        <div class="pillar">
+            <h3>Pillar 3: Equipment</h3>
+            <div class="post-grid">
+                <div class="post-card">
+                    <div class="post-number">POST 19</div>
+                    <a href="/posts/post-19.html">The Shoe Mistake Everyone Makes</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 20</div>
+                    <a href="/posts/post-20.html">The Paddle Weight Paradox</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 21</div>
+                    <a href="/posts/post-21.html">The Grip Size That Saves Elbows</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 22</div>
+                    <a href="/posts/post-22.html">The Insole Investment</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 23</div>
+                    <a href="/posts/post-23.html">The Compression Gear Truth</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 24</div>
+                    <a href="/posts/post-24.html">The Bracing Decision</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 25</div>
+                    <a href="/posts/post-25.html">The Court Surface Factor</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 26</div>
+                    <a href="/posts/post-26.html">The Training Tools Worth Buying</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 27</div>
+                    <a href="/posts/post-27.html">The Recovery Equipment Arsenal</a>
+                </div>
             </div>
+        </div>
 
-            <div class="pillar">
-                <h2>05. Recovery</h2>
-                <p>Optimize healing & adaptation</p>
-                <ul>
-                    <li><a href="posts/05-recovery/post-38-active-recovery.html">Active Recovery</a></li>
-                    <li><a href="posts/05-recovery/post-39-ice-vs-heat.html">Ice vs Heat</a></li>
-                    <li><a href="posts/05-recovery/post-40-foam-rolling.html">Foam Rolling</a></li>
-                    <li><a href="posts/05-recovery/post-41-massage-guns.html">Massage Guns</a></li>
-                    <li><a href="posts/05-recovery/post-42-stretching-protocol.html">Stretching Protocol</a></li>
-                    <li><a href="posts/05-recovery/post-43-nutrition-timing.html">Nutrition Timing</a></li>
-                    <li><a href="posts/05-recovery/post-44-hydration-strategy.html">Hydration Strategy</a></li>
-                    <li><a href="posts/05-recovery/post-45-sleep-optimization.html">Sleep Optimization</a></li>
-                </ul>
+        <div class="pillar">
+            <h3>Pillar 4: The Fix</h3>
+            <div class="post-grid">
+                <div class="post-card">
+                    <div class="post-number">POST 28</div>
+                    <a href="/posts/post-28.html">The Isometric Calf Hold</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 29</div>
+                    <a href="/posts/post-29.html">The Single-Leg Stance</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 30</div>
+                    <a href="/posts/post-30.html">The Lateral Lunge Protocol</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 31</div>
+                    <a href="/posts/post-31.html">The Rotator Cuff Series</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 32</div>
+                    <a href="/posts/post-32.html">The Hip Hinge Mastery</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 33</div>
+                    <a href="/posts/post-33.html">The Thoracic Spine Unlock</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 34</div>
+                    <a href="/posts/post-34.html">The Ankle Mobility Matrix</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 35</div>
+                    <a href="/posts/post-35.html">The Core Stability System</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 36</div>
+                    <a href="/posts/post-36.html">The Deceleration Training</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 37</div>
+                    <a href="/posts/post-37.html">The Movement Prep Ritual</a>
+                </div>
             </div>
+        </div>
 
-            <div class="pillar">
-                <h2>06. Longevity</h2>
-                <p>Playing for decades, not years</p>
-                <ul>
-                    <li><a href="posts/06-longevity/post-46-training-load.html">Training Load Management</a></li>
-                    <li><a href="posts/06-longevity/post-47-periodization.html">Periodization for Masters</a></li>
-                    <li><a href="posts/06-longevity/post-48-deload-weeks.html">Strategic Deload Weeks</a></li>
-                    <li><a href="posts/06-longevity/post-49-baseline-testing.html">Baseline Testing</a></li>
-                    <li><a href="posts/06-longevity/post-50-lifetime-athlete.html">The Lifetime Athlete</a></li>
-                </ul>
+        <div class="pillar">
+            <h3>Pillar 5: Recovery</h3>
+            <div class="post-grid">
+                <div class="post-card">
+                    <div class="post-number">POST 38</div>
+                    <a href="/posts/post-38.html">The 24-Hour Recovery Window</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 39</div>
+                    <a href="/posts/post-39.html">The Sleep-Performance Connection</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 40</div>
+                    <a href="/posts/post-40.html">The Inflammation Control Diet</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 41</div>
+                    <a href="/posts/post-41.html">The Hydration Formula</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 42</div>
+                    <a href="/posts/post-42.html">The Active Recovery Day</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 43</div>
+                    <a href="/posts/post-43.html">The Soft Tissue Maintenance</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 44</div>
+                    <a href="/posts/post-44.html">The Temperature Therapy Protocol</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 45</div>
+                    <a href="/posts/post-45.html">The Stress Management Factor</a>
+                </div>
             </div>
+        </div>
+
+        <div class="pillar">
+            <h3>Pillar 6: Longevity</h3>
+            <div class="post-grid">
+                <div class="post-card">
+                    <div class="post-number">POST 46</div>
+                    <a href="/posts/post-46.html">The Periodization Plan</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 47</div>
+                    <a href="/posts/post-47.html">The Load Management System</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 48</div>
+                    <a href="/posts/post-48.html">The Skill Development Path</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 49</div>
+                    <a href="/posts/post-49.html">The 10-Year Vision</a>
+                </div>
+                <div class="post-card">
+                    <div class="post-number">POST 50</div>
+                    <a href="/posts/post-50.html">The Sustainable Competitive Edge</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <h2>Ready to Play Pain-Free?</h2>
+            <p>Get the complete system in one comprehensive guide</p>
+            <a href="/no-pop-protocol.html" class="cta-primary">Download The No-Pop Protocol</a>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 Prime Point Pickleball. Evidence-based injury prevention for competitive players 50+.</p>
+        <p>&copy; 2026 Prime Point Pickleball. Evidence-based training for competitive players 50+.</p>
     </footer>
 </body>
 </html>
