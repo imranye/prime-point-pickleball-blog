@@ -1,28 +1,18 @@
 # Prime Point Pickleball Blog
 
-**Tagline:** Winning the long game.
+🎯 Evidence-based injury prevention and longevity strategies for competitive pickleball players 50+
 
-**Target Audience:** Competitive pickleball players aged 50-75
+## Live Site
+https://prime-point-pickleball-blog.pages.dev
 
-**Focus Areas:**
-- Injury prevention (especially Achilles tears)
-- Specialized equipment for aging athletes
-- Maintaining high-level play into old age
+## Content
+- 50+ blog posts across 6 pillars
+- Injury prevention protocols
+- Equipment guides
+- Recovery strategies
+- Longevity techniques
 
-## Blog Structure
-
-- `posts/01-the-fear/` - Direct Achilles injury stories and fears
-- `posts/02-the-enemy/` - Root causes of injuries
-- `posts/03-equipment/` - Gear reviews and recommendations
-- `posts/04-the-fix/` - Prevention exercises and protocols
-- `posts/05-recovery/` - Content for already-injured players
-- `posts/06-longevity/` - Authority-building longevity content
-- `assets/` - Images and resources
-
-## Monetization
-
-All posts drive to **The No-Pop Protocol** ($27 PDF) - the comprehensive Achilles protection system.
-
----
-
-Built by Prime Point Pickleball
+## Built With
+- Static HTML
+- Cloudflare Pages
+- Evidence-based research
